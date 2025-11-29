@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
         precio.textContent = `$${producto.precio}`;
 
         const boton = document.createElement("button");
-        boton - classList.add("anadir-boton");
+        boton.classList.add("anadir-boton");
         boton.textContent = "Agregar al carrito";
         boton.addEventListener("click", () => {
           agregarAlCarrito(producto);
