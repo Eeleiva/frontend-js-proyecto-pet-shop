@@ -19,63 +19,58 @@
     "precio": 3000,
     "img": "img/alimento_royal.jpg"
   },
+  
   {
     "id": "4",
-    "nombre": "Alimento para gatos",
-    "precio": 3900,
-    "img": "img/alimento_royalcanini.jpg"
-  },
-  {
-    "id": "5",
     "nombre": "Alimento para gatos",
     "precio": 4500,
     "img": "img/alimento_oldprince_gato.jpg"
   },
   {
-    "id": "6",
+    "id": "5",
     "nombre": "Alimento para gatos",
     "precio": 5000,
     "img": "img/alimento_excelent_gato.jpg"
   },
   {
-    "id": "7",
+    "id": "6",
     "nombre": "Alimento para conejos",
     "precio": 3000,
     "img": "img/conejo1.jpg"
   },
   {
-    "id": "8",
+    "id": "7",
     "nombre": "Alimento para Hamsters",
     "precio": 300,
     "img": "img/hamster1.jpg"
   },
   {
-    "id": "9",
+    "id": "8",
     "nombre": "Alimento para pajaros",
     "precio": 1000,
     "img": "img/pajaro3.jpg"
   },
   {
-    "id": "10",
+    "id": "9",
     "nombre": "Juguetes para perros",
     "precio": 200,
     "img": "img/juguete-perro.jpg"
   },
   {
-    "id": "11",
+    "id": "10",
     "nombre": "Juguetes para gatos",
     "precio": 300,
     "img": "img/juguete-gato.jpg"
   },
   {
-    "id": "12",
+    "id": "11",
     "nombre": "Accesorios para Conejo",
     "precio": 4000,
     "img": "img/accesorios-conejo.jpg"
   },
         
   { 
-    "id": "13",
+    "id": "12",
     "nombre": "Accesorios para Hamster",
     "precio": 1500,
     "img": "img/accesorios-hamster.jpg"
