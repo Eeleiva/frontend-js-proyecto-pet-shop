@@ -1,4 +1,4 @@
-import { eliminarProducto } from "./funcionesCarrito.js";
+import { eliminarProducto, vaciarCarrito } from "./funcionesCarrito.js";
 import { obtenerCarrito } from "./storage.js";
 import { actualizarContador } from "./ui.js";
 
@@ -21,7 +21,7 @@ const renderizarCarrito = () => {
     return;
   }
 
-  carrito.forEach(producto, (indice) => {
+  carrito.forEach((producto, indice) => {
     const tarjeta = document.createElement("article");
     tarjeta.classList.add("tarjeta-productos");
 
@@ -50,7 +50,7 @@ const renderizarCarrito = () => {
     tarjeta.appendChild(img);
     tarjeta.appendChild(titulo);
     tarjeta.appendChild(precio);
-    tarjeta.appendChild(tarjeta);
+    tarjeta.appendChild(btnEliminar);
 
     contenedor.appendChild(tarjeta);
   });

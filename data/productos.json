@@ -73,5 +73,7 @@
   },
   { "id": "13", "nombre": "producto 9", "precio": 0, "img": "img/logo.png" },
 
-  { "id": "14", "nombre": "producto 10", "precio": 0, "img": "img/pajaro3.jpg" }
+  { "id": "14", "nombre": "producto 10", "precio": 0, "img": "img/pajaro3.jpg" },
+
+  {"id": "15", "nombre": "producto 11", "precio": 0, "img" : "img/logo2.jpe"  }
 ]
