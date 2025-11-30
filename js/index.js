@@ -1,7 +1,6 @@
 import { agregarAlCarrito } from "./funcionesCarrito.js";
 import { obtenerCarrito } from "./storage.js";
 import { actualizarContador } from "./ui.js";
-import { productos} from "./productos.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   const contenedor = document.getElementById("contenedor-tarjetas");
@@ -36,8 +35,6 @@ document.addEventListener("DOMContentLoaded", () => {
         boton.textContent = "Agregar al carrito";
         boton.addEventListener("click", () => {
           agregarAlCarrito(producto);
-
-         
         });
 
         tarjeta.appendChild(img);
