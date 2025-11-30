@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet shop</title>
+    <link href="https://fonts.google.com/specimen/Alan+Sans" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/7df637d74a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="div-logo">
+        <a class="logo" href="./index.html" img src="./img/logo2.jpe">LOGO</a>
+      </div>
+      <p class="header__logo"></p>
+
+      <nav class="header__nav">
+        <ul>
+          <li>
+            <a href="./index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./pages/contacto.html"> Contacto</a>
+          </li>
+
+          <li>
+            <a href="./pages/carrito.html" class="carrito-icono">
+              <i class="fa-solid fa-cart-shopping"></i>
+
+              <span id="contador-carrito">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="titulo-home">Bienvenidos a nuestra tienda Online</h1>
+
+      <br />
+      <img
+        src="./img/logo.png"
+        alt="imagen de un gatito y un perro en sombra"
+        witdh="300"
+        height="200"
+      />
+      <p class="parrafo-home">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam sequi
+        dolorum nisi placeat unde facere officiis labore ducimus sint, quasi
+        earum ratione ex a ccusamus quas amet dignissimos recusandae, quos
+        inventore?
+      </p>
+      <section class="productos-home">
+        <h2>Algunos de nuestros productos</h2>
+
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Seguinos!</p>
+      <div>
+        <ul>
+          <i class="fa-brands fa-facebook"><li>Facebook</li></i>
+          <br />
+          <i class="fa-brands fa-instagram"><li>Instagram</li></i>
+          <br />
+          <i class="fa-brands fa-tiktok"><li>Tiktok</li></i>
+        </ul>
+      </div>
+    </footer>
+    <script src="./js/index.js" type="module"></script>
+  </body>
+</html>

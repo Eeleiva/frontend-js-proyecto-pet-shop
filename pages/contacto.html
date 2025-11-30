@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link href="https://fonts.google.com/specimen/Alan+Sans" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="div-logo"><a class="logo" href="../index.html">LOGO</a></div>
+      <nav class="header__nav">
+        <ul>
+          <li>
+            <a href="../index.html"> Inicio </a>
+          </li>
+          <li>
+            <a href="./contacto.html"> Contacto</a>
+          </li>
+          <li>
+            <a href="./carrito.html" class="carrito-icono">
+              <span id="contador-carrito">0</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="seccion-contacto">
+        <h1 class="titulo-contacto">Contactanos</h1>
+        <form
+          class="form"
+          action="https://formspree.io/f/mdkwavvv"
+          method="Post"
+        >
+          <div class="campo-form">
+            <label for="email"> Correo:</label>
+            <input id="email" type="email" name="email" />
+          </div>
+
+          <div class="campo-form">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje"></textarea>
+          </div>
+          <input type="hidden" name="subject" value="Contacto desde el sitio" />
+
+          <button class="btn" type="submit">Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer class="footer">
+      <p>Seguinos!</p>
+      <div>
+        <ul>
+          <i class="fa-brands fa-facebook"><li>Facebook</li></i>
+          <br />
+          <i class="fa-brands fa-instagram"><li>Instagram</li></i>
+          <br />
+          <i class="fa-brands fa-tiktok"><li>Tiktok</li></i>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1",
+    "nombre": "Accesorios para Conejos",
+    "precio": 0,
+    "img": "img/accesorios-conejo.jpg"
+  },
+  {
+    "id": "2",
+    "nombre": "Accesorios para Hamsters",
+    "precio": 0,
+    "img": "img/accesorios-hamster.jpg"
+  },
+  {
+    "id": "3",
+    "nombre": "Producto 3",
+    "precio": 0,
+    "img": "img/alimento_excellent_gato.jpg"
+  },
+  {
+    "id": "4",
+    "nombre": "Producto 4",
+    "precio": 0,
+    "img": "img/alimento_excellent_perro.jpg"
+  },
+  {
+    "id": "5",
+    "nombre": "producto 1",
+    "precio": 0,
+    "img": "img/alimento_oldprince_gato.jpg"
+  },
+  {
+    "id": "6",
+    "nombre": "producto 2",
+    "precio": 0,
+    "img": "img/alimento_proplan_perro.jpg"
+  },
+  {
+    "id": "7",
+    "nombre": "producto 3",
+    "precio": 0,
+    "img": "img/alimento_royal.jpg"
+  },
+  {
+    "id": "8",
+    "nombre": "producto 4",
+    "precio": 0,
+    "img": "img/alimento_royalcanini_gato.jpg"
+  },
+  {
+    "id": "9",
+    "nombre": "producto 5",
+    "precio": 0,
+    "img": "img/conejo1.jpg.jpg"
+  },
+  {
+    "id": "10",
+    "nombre": "producto 6",
+    "precio": 0,
+    "img": "img/hamster1.jpg"
+  },
+  {
+    "id": "11",
+    "nombre": "producto 7",
+    "precio": 0,
+    "img": "img/juguete-gato.jpg"
+  },
+  {
+    "id": "12",
+    "nombre": "producto 8",
+    "precio": 0,
+    "img": "img/juguete-perro.jpg"
+  },
+  { "id": "13", "nombre": "producto 9", "precio": 0, "img": "img/logo.png" },
+
+  { "id": "14", "nombre": "producto 10", "precio": 0, "img": "img/pajaro3.jpg" }
+
+  {"id": "15", "nombre": "producto 11", "precio": 0, "img" : "img/logo2.jpe"  }
+]
