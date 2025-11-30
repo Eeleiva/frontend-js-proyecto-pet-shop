@@ -69,9 +69,17 @@
   },
   {
     "id": "12",
-    "nombre": "producto 8",
+    "nombre": "Accesorios para Conejo",
     "precio": 4000,
-    "img": "img/juguete-perro.jpg"
-  }
+    "img": "img/accesorios-conejo.jpg"
+  },
+        
+  { 
+    "id": "13",
+    "nombre": "Accesorios para Hamster",
+    "precio": 1500,
+    "img": "img/accesorios-hamster.jpg"
+   }
+  ]
   
-]
+

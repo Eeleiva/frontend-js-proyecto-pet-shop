@@ -239,7 +239,7 @@ body {
 /* carrito*/
 
 .mensaje-carrito-vacio {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-align: center;
   margin-top: 2rem;
 }
@@ -252,7 +252,7 @@ body {
   background: #5a3abb;
   color: #b197fc;
   border: none;
-  font-size: black;
+  font-size: rgb(0, 0, 0);
   font-weight: bold;
   padding: 1.6rem;
   border-radius: 1rem;
@@ -269,6 +269,12 @@ body {
 }
 .btn-vaciar-carrito:hover {
   background: aqua;
+}
+
+.carrito-icono {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #f7bb2b;
 }
 
 @media (max-width: 768px) {
