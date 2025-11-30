@@ -70,5 +70,5 @@ const renderizarCarrito = () => {
 };
 
 document.addEventListener("DOMContentLoaded", () => {
- v   renderizarCarrito();
+  renderizarCarrito();
 });
