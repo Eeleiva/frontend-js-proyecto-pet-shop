@@ -12,8 +12,9 @@ export const agregarAlCarrito = (producto) => {
 
   guardarCarrito(carrito);
   actualizarContador(carrito);
-  mostrarMensaje("Producto agregado");
+  mostrarMensaje(`Agregado ${producto.nombre} al carrito`)
 };
+
 
 export const eliminarProducto = (indice) => {
   const carrito = obtenerCarrito();
